@@ -20,9 +20,7 @@ public abstract class BaseAcitivity extends AppCompatActivity implements Lifecyc
         event();
         observerViewmodel();
         destroyviewModel();
-
     }
-
 
     @OnLifecycleEvent(Lifecycle.Event.ON_DESTROY)
     protected abstract void destroyviewModel();
